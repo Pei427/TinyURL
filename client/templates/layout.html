@@ -1,0 +1,15 @@
+<body>
+	{{renderPage}}
+</body>
+
+<template name="layout">
+	<div class="container">
+		<h1>TinyURL</h1>
+		<hr>
+		<div class="row">
+			<div class="col-md-12">
+				{{> yield}}
+			</div>
+		</div>
+	</div>
+</template>
